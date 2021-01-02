@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { background-color:rgb(247, 242, 177);
+               margin:24px;
+               padding:20px;
+        }
+   p{font: serif, bold;
+    color:red;
+    font-size: 40px;
+     text-align:center;
+   }      
+   .text p{
+    color:grey;
+    font-size:15px;
+   }  
+   #example1 {
+  background: url("https://image.shutterstock.com/image-photo/book-library-old-open-textbook-260nw-1436393327.jpg" );
+  height:30%; width:100%;
+  padding: 15px;
+  align-content:center;
+  }
+
+  #example1 h1{font-style: serif;color:white;text-align:center;}
+      
+  table.b {
+    background-color:rgb(249,213, 110);
+    border: 5px solid #0000ff; 
+   
+    height:650 width:600 border-radius:20px ;
+    margin:20px auto;
+    padding:30px;
+  }
+  table.a {
+
+    padding:10px;
+    border: 5px solid #0000ff;
+    background-color: rgb(235, 169, 93);
+     height:30%; width:100%;
+    text-align:center;
+
+  } 
+  table.a tr{  size: 54px;
+               font-style: serif;
+               font-weight: bold;
+               color:#0f0f0f;
+                 text-align:center;
+               } 
+
+  table.a tr>td>
+     a:link, a:visited {
+        color: white;
+        background-color: #1ebba3;
+        display: inline-block;
+        padding: 5px ;
+        border: 1px solid #099983;
+        text-decoration: none;
+        text-align: center;
+        font: 14px Arial, serif;
+    }
+    a:hover, a:active {
+        background-color: #9c6ae1;
+        border-color: #7443b6;
+        text-decoration: underline;
+    }
+
+  }
+  .a ul {
+        padding: 0;
+        list-style: none;
+    }
+    ul li {
+        width: 100px;
+        text-align: center;
+        background: #5287a6;
+        font-weight: bold;
+    }
+    ul li a{
+        padding: 5px;
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    ul li a:hover {
+        text-decoration: underline;
+    }
+    ul li ul {
+        display: none;
+    }
+
+    
+
+  h2{
+    font-style: serif bold;
+    color:red;
+    font-size: 30px;
+     text-align:center;
+
+  }      
+
+    </style>
+<body>
+ <div id="example1" >
+  <h1>Learning<br> for everyone</h1>
+</div>
+
+
+   <table class="a" cellpadding="1" cellspacing="3"  >
+       <tr class="1">
+        <td><a href="#">Menu</a>
+       
+        <td><a href="#">Home</a></td>
+        <td><a href="#">About</a></td>
+        <td><a href="#">Contact</a></td>
+        <td><a href="#">Help</a></td>
+
+        </tr>
+      </table>
+
+   <div class="text">
+     <p>
+      Formal education consists of systematic instruction, teaching and training by professional teachers. This consists of the application of pedagogy and the development of curricula.
+
+The right to education is a fundamental human right. Since 1952, Article 2 of the first Protocol to the European Convention on Human Rights obliges all signatory parties to guarantee the right to education. At world level, the United Nations' International Covenant on Economic, Social and Cultural Rights of 1966 guarantees this right under its Article 13.
+
+Educational systems are established to provide education and training, often for children and the young. A curriculum defines what students should know, understand and be able to do as the result of education. A teaching profession delivers teaching which enables learning, and a system of policies, regulations, examinations, structures and funding enables teachers to teach to the best of their abilities. Sometimes educational systems can be used to promote doctrines or ideals as well as knowledge, which is known as social engineering. This can lead to political abuse of the system, particularly in totalitarian states and government.
+
+
+ 
+
+        
+
+     </p>
+   </div>     
+
+     
+    <table class="b"  >
+  <center>
+            <h2>Registration Form</h2>    
+      <tr>
+    <td>Name</td>
+    <td><form><label>First Name</label><input type="text" name="first name"></form></td>
+    <td><form><label>Last Name</label><input type="text" name="last name"></form></td>
+  </tr>
+      <td>Gender</td>
+        <td><input type="radio" name="Male" value="male">Male</td>
+    <td><input type="radio" name="Female" value="female">Female</td>
+  <tr>
+  </tr>
+     <td>Address</td>
+     <td colspan="2"> <textarea rows="5" cols="65">
+        </textarea><br> </td>
+  <tr>
+    <td>Phone no.</td>
+     <td colspan="2"><input type="text"></td>
+  </tr>
+  <td>Email id</td>
+     <td colspan="2"><input type="text"></td>
+  <tr>
+    <td>Hobbies</td>
+    <td>
+    <select name="Hobbies">
+      <option value="India">Singing </option>
+      <option value="US">Dancing </option>
+      <option value="UAE" selected>Writing </option>
+      <option value="NEPAL">Reading </option>
+    </select><br>
+      </td>
+  </tr>
+  <tr>
+    <td>City</td>
+    <td>
+      <select name="City">
+      <option value="Surat"selected>Surat</option>
+      <option value="Dahod">Dahod</option>
+      <option value="Vadodara" selected>Vadodara </option>
+      <option value="Vapi">Vapi </option>
+    </select><br>
+    
+        </td>
+  </tr>
+  <tr>
+    <td>State</td>
+    <td>
+    <select name="State">
+      <option value="Gujarat">Gujarat</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Kerala" selected>Kerala </option>
+      <option value="Rajasthan">Rajasthan</option>
+    </select><br>
+        </td>
+  </tr>
+  <tr>
+    <td>Country</td>
+    <td>
+      <select name="Country">
+      <option value="India"selected>India</option>
+      <option value="US">Canada</option>
+      <option value="USA">USA</option>
+      <option value="NEPAL">UK</option>
+    </select><br>
+    
+        </td>
+  </tr>
+  <tr>
+    <td>Collage</td>
+    <td colspan="2">
+      <select name="Collage">
+          <option value="PIET"selected>PIET </option><br>
+          <option value="PIP">PIP<br>
+              <option value="DAIICT">DAIICT<br>
+              <option value="DDU">DDU<br>
+    </select>
+        </td>
+  </tr>
+  <tr><th colspan="3"><input type="submit" name="submit"></th></tr>
+    </table>
+</center>
+</body>
+</html> 

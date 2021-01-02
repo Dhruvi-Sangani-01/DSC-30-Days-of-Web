@@ -1,1 +1,1 @@
-#CSS prperties in HTML
+Using some CSS prperties in HTML.
